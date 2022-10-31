@@ -21,11 +21,11 @@ helsinkimissio.fi mail is handled by 0 helsinkimissio-fi.mail.protection.outlook
 | Tag | Value |
 | --- | --- |
 | v | STSv1 |
-| id | 202210281532 |
+| id | 202210310725 |
 
 The id tag value should be updated on each policy change. The current value can be resolved using the command:
 
 ```
 % host -t TXT _mta-sts.helsinkimissio.fi
-_mta-sts.helsinkimissio.fi descriptive text "v=STSv1; id=202210281532;"
+_mta-sts.helsinkimissio.fi descriptive text "v=STSv1; id=202210310725;"
 ```
