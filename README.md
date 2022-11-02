@@ -5,7 +5,7 @@ Helsinkimissio.fi's SMTP MTA Strict Transport Security Policy adds a security la
 | Tag | Value |
 | --- | --- |
 | version | STSv1 |
-| mode | testing |
+| mode | enforce |
 | mx | helsinkimissio-fi.mail.protection.outlook.com |
 | max_age | 86400 |
 
@@ -21,11 +21,11 @@ helsinkimissio.fi mail is handled by 0 helsinkimissio-fi.mail.protection.outlook
 | Tag | Value |
 | --- | --- |
 | v | STSv1 |
-| id | 202210310725 |
+| id | 202211020846 |
 
 The id tag value should be updated on each policy change. The current value can be resolved using the command:
 
 ```
 % host -t TXT _mta-sts.helsinkimissio.fi
-_mta-sts.helsinkimissio.fi descriptive text "v=STSv1; id=202210310725;"
+_mta-sts.helsinkimissio.fi descriptive text "v=STSv1; id=202211020846;"
 ```
